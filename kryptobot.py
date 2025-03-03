@@ -8,7 +8,7 @@ from discord.ui import Button, View
 
 # Charger le token depuis .env
 load_dotenv()
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('MTM0NjIyODYxOTE5Mzg3NjU0MQ.GKj4F0.1nIZMEYwokYBL_ElZSs_RcnzbnU-5Mu80OOTTo')
 
 # Configuration du bot avec le préfixe "!"
 intents = discord.Intents.default()
@@ -133,3 +133,5 @@ async def on_ready():
     check_alerts.start()
 
 bot.run(TOKEN)
+
+
